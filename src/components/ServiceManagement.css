@@ -1,0 +1,89 @@
+.service-management {
+    padding: 10px;
+  }
+  
+  .service-management h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .service-management ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+  }
+  
+  .service-management ul li {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    background-color: #f9f2dc;
+    border: 1px solid #f3e2b8;
+    border-radius: 5px;
+  }
+  
+  .add-service input {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-service button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-service button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .trash-icon {
+    color: red;
+    font-size: 18px !important; /* Adjust the size of the icon */
+    transition: color 0.3s ease; /* Optional, for smooth hover effect */
+   
+  }
+  
+  .trash-icon:hover {
+    color: darkred; /* Change color on hover */
+  }
+  
+  .add-service input {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .add-service button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-service button:hover {
+    background-color: #0056b3;
+  }
+  

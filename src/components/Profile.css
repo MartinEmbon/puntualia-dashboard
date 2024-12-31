@@ -1,0 +1,116 @@
+/* src/components/Profile.css */
+.profile {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .profile-details {
+    font-size: .9em;
+    color: #555;
+    width: 60%; /* Adjust as needed for left side */
+  }
+  
+  .profile-details p {
+    margin: 10px 0;
+  }
+  
+  .profile-details strong {
+    font-weight: bold;
+  }
+  
+  .profile-picture {
+    width: 35%; /* Adjust as needed for right side */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 150px; /* Adjust size of the profile picture */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd; /* Optional border around the profile picture */
+  }
+  
+
+  .profile-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .profile-details {
+    width: 60%;
+  }
+  
+  .profile-picture {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* .image-upload {
+    margin-top: 10px;
+  } */
+  
+  .upload-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+  .profile-picture {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    gap: 10px; /* Add some space between elements */
+  }
+  
+  .upload-success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px; /* Ensure some space between the button and the success message */
+  }
+  .profile-picture-note {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  

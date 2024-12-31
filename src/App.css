@@ -1,0 +1,151 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #f7f9fc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .app-header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+} */
+
+.app-header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.app-subheader {
+  font-size: 1.2em;
+  color: #666;
+  margin-top: 5px;
+}
+
+.dashboard {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboard > div {
+  flex: 1;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+/* Header container */
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Logo container */
+.logo-container {
+  margin-right: 20px; /* Space between the logo and text */
+}
+
+.app-logo {
+  height: 40px; /* Adjust the logo size */
+  width: auto;
+}
+
+/* Text container */
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Title styling */
+.app-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+/* Subheader styling */
+.app-subheader {
+  font-size: 14px;
+  color: #666;
+}
+/* App Header */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Left Logo */
+.logo-container {
+  margin-right: 20px;
+}
+
+.app-logo {
+  height: 60px; /* Increase logo size */
+  width: auto;
+}
+
+/* Centered Title */
+.header-title {
+  flex-grow: 1; /* Ensures the title takes up remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.app-subheader {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Right Profile Picture */
+.customer-logo-container {
+  margin-left: 20px; /* Space between title and customer logo */
+}
+
+.customer-logo {
+  height: 80px; /* Increase profile picture size */
+  width: 80px;
+  border-radius: 50%; /* Makes the profile picture circular */
+}
+
+.placeholder {
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

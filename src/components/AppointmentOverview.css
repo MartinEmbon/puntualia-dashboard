@@ -1,0 +1,102 @@
+.appointment-overview {
+    padding: 10px;
+  }
+  
+  .appointment-overview h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .appointment-overview ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .appointment-overview ul li {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .appointment-overview ul li strong {
+    color: #333;
+  }
+  
+  .appointments-container {
+    padding: 20px;
+  }
+  
+  .appointments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .appointments-table th,
+  .appointments-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .appointments-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .appointments-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .appointments-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .status-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #4caf50; /* Green for "confirmed" */
+  }
+  
+  .status-button i {
+    transition: color 0.3s ease;
+  }
+  
+  .status-button:hover {
+    color: #1e7e34;
+  }
+  
+  .status-button .fa-check {
+    color: #4caf50;
+  }
+  
+  .status-button .fa-times {
+    color: #f44336;
+  }
+  
+  .status-button:disabled {
+    cursor: not-allowed;
+    color: #bdbdbd;
+  }
+  
+  .status-icon {
+    font-size: 18px;
+  }
+  .search-bar {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  

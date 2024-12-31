@@ -1,0 +1,58 @@
+/* Navbar container styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px; /* Reduced padding */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Reduced margin */
+}
+
+/* Left side of the navbar (buttons) */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Reduced space between the welcome message and logout button */
+}
+
+/* Button styling */
+button {
+  padding: 8px 12px; /* Reduced padding for a more delicate look */
+  font-size: 13px !important; /* Smaller font size for buttons */
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-left: 8px; /* Reduced margin between buttons */
+  transition: background-color 0.3s ease; /* Added transition for smooth hover effect */
+}
+.business-url{
+  font-size: 14px;
+}
+
+.appointments-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.home-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Welcome message styling */
+.welcome-message {
+  font-size: 14px; /* Reduced font size for the welcome message */
+  color: #333;
+  font-weight: 500; /* Slightly bolder for emphasis */
+}

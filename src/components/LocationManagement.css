@@ -1,0 +1,65 @@
+/* LocationManagement.css */
+.location-management {
+    padding: 20px;
+  }
+  
+  .location-management h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .location-management ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+  }
+  
+  .location-management ul li {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    background-color: #f9f2dc;
+    border: 1px solid #f3e2b8;
+    border-radius: 5px;
+  }
+  
+  .add-location input {
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-location button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-location button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .trash-icon {
+    color: red;
+    font-size: 18px !important; /* Adjust the size of the icon */
+    transition: color 0.3s ease; /* Optional, for smooth hover effect */
+    padding: 0;
+  }
+  
+  .trash-icon:hover {
+    color: darkred;
+  }
+  

@@ -1,0 +1,79 @@
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-form input {
+    display: block;
+    width: calc(100% - 20px); /* Reduces width to leave space for padding/margin */
+    padding: 10px;
+    margin: 10px auto; /* Centers the input within the form */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    margin:auto;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .forgot-password-form {
+    margin-top: 20px;
+  }
+  
+  .forgot-password-form input {
+    width: calc(100%-20px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password-form button {
+    margin-right: 10px;
+  }
+  
+
+  /* Login header */
+.login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  margin-bottom: 10px; /* Space between logo and title */
+}
+
+.app-logo {
+  height: 60px; /* Adjust logo size */
+  width: auto;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}

@@ -1,0 +1,74 @@
+.signup-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signup-form input {
+    display: block;
+    width: calc(100% - 20px); /* Reduces width to leave space for padding/margin */
+    padding: 10px;
+    margin: 10px auto; /* Centers the input within the form */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Green for Sign Up */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #218838; /* Darker green for hover */
+}
+
+.signup-container p {
+    margin-top: 20px;
+    color: #666;
+}
+
+.signup-container p button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.signup-container p button:hover {
+    text-decoration: underline;
+}
+
+/* Add styles for subheader */
+.subheader {
+    font-size: .9rem;
+    color: #555;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+ 
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 170px; /* Adjust size as necessary */
+    height: auto;
+  }
+  
